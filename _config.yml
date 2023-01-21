@@ -1,0 +1,13 @@
+remote_theme: vaibhavvikas/jekyll-theme-minimalistic
+color-scheme: light
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jemoji
+
+navigation:
+  - name: Readme
+    link: ./index.html
+  - name: Jupyter Notebook 
+    link: ./isochrone_map1
