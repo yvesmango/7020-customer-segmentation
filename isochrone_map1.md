@@ -40,7 +40,7 @@ print(python_version())
 
 We need to set up the parameters for the network graph we want to create. We will need an address, or coordinates (Latitude & Longitude). If you provide a name or an address, Osmnx under the hood will geocode and return the network graph for the area. 
 
-In this demonstration, we will create a network graph for the city of Berkeley, California. We first create a couple of variables to hold `location` and `transportation_mode`.
+In this demonstration, we will create a network graph for the city of San Francisco, California. We first create a couple of variables to hold `location` and `transportation_mode`.
 
 
 ```python
