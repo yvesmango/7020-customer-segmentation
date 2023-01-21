@@ -1,6 +1,9 @@
 remote_theme: vaibhavvikas/jekyll-theme-minimalistic
 color-scheme: light
 
+title: creating-isochrone-map
+description: isochrone map tutorial using OSMnx
+
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
