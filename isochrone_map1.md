@@ -1,3 +1,8 @@
+---
+layout: default
+---
+**[Home](https://yvesmango.github.io/) >> [Projects](https://yvesmango.github.io/projects.html) >> [[OSMnx] Creating Isochrone Map](https://yvesmango.github.io/isochrone_map1/) >> Jupyter Notebook**
+
 # Drawing an isochrone map with OSMnx
 
 ## 1. Loading dependencies
