@@ -1,8 +1,8 @@
 remote_theme: vaibhavvikas/jekyll-theme-minimalistic
 color-scheme: light
 
-title: creating-isochrone-map
-description: isochrone map tutorial using OSMnx
+title: isochrone-map-osmnx
+description: A geospatial project that utilizes OSMnx to create and visualize isochrone maps.
 
 plugins:
   - jekyll-sitemap

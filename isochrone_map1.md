@@ -152,7 +152,7 @@ plt.show()
 
 There are downsides to both of the above methods. In the first, the dots are not only hard to read but our isochrone map looks disjointed. At minimum, it shows us the travel time information for each node, but a true isochrone conveys travel time information of an area. Isochrone maps should display a discernable border or boundary for each layer of travel time. 
 
-The second is a slight improvement, we are given an area (polygon) but it doesn't account for any inaccessible streets or obstacles found in that particular area. (I know *every* city has them.)
+The second is a slight improvement, we are given an area (polygon) with discernible borders, but it doesn't account for any inaccessible streets or obstacles found in that particular area. (I know *every* city has them.)
 
 So what we need is something in between...
 
@@ -160,7 +160,7 @@ Thankfully, the brilliant [Kuan Butts](http://kuanbutts.com/2017/12/16/osmnx-iso
 
 ## 6. A new method of generating isochrones
 
-For this part, I will you through the new method step by step. In this example, we will work only with the 20 minute readius which we will assgin to variable `buffer_val`
+For this part, I will you through the new method step by step. In this example, we will work only with the 20 minute readius which we will assign to variable `trip_time`
 
 The `buffer` function essentially thickens the node depending on the value (integer) we give it. The larger the value, the thicker our nodes become.
 
@@ -186,7 +186,7 @@ nodes_gdf.buffer(buffer_val).unary_union
 
 
 
-We can apply the same method to our edges. If we use the edges instead of the nodes, we will get a continuous line set that we can use `buffer`. From this buffer we will create a single polygon representing accessibility at this given time threshold.
+We can apply the same method to our edges. If we use the edges instead of the nodes, we will get a continuous line set that we can use to `buffer`. From this buffer we will create a single polygon representing accessibility at this given time threshold.
 
 
 ```python
@@ -278,3 +278,6 @@ Further extension of this application...
 
 * Side by side comparison of cities, to easily difference in walkability/accessibility.
 * others
+
+
+[top](#top)
