@@ -10,7 +10,7 @@ plugins:
   - jemoji
 
 navigation:
-  - name: Readme
+  - name: Read me
     link: ./index.html
   - name: Jupyter Notebook 
     link: ./isochrone_map1

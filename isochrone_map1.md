@@ -1,17 +1,11 @@
 ---
 layout: default
 ---
-**[Home](https://yvesmango.github.io/) >> [Projects](https://yvesmango.github.io/projects.html) >> [Creating Isochrone Map](https://yvesmango.github.io/isochrone_map1/) >> Jupyter Notebook**
+**[Home](https://yvesmango.github.io/) >> [Projects](https://yvesmango.github.io/projects.html) >> [OSMnx Isochrone map](https://yvesmango.github.io/isochrone_map1/) >> Jupyter Notebook**
 
 # Drawing an isochrone map with OSMnx
 
 ## 1. Loading dependencies
-
-
-```python
-#pip install osmnx
-```
-
 
 ```python
 import geopandas as gpd
@@ -271,13 +265,7 @@ plt.show()
 
     <Figure size 432x288 with 0 Axes>
 
-
-## 6. Conclusion
-
-Further extension of this application...
-
-* Side by side comparison of cities, to easily difference in walkability/accessibility.
-* others
+Fin.
 
 
 [top](#top)
