@@ -5,8 +5,6 @@
 
 ### What is an isochrone map?
 
-An isochrone map, also known as a travel time map, are maps that show what part or parts of a city is reachable by foot, car, train, etc within 
-
 >Isochrone maps, also known as travel time maps, are maps that show **all** reachable locations within a specified limit by a specified mode of transport. They are most used to depict travel times, such as drawing a 30-minute travel time perimeter around a start location. _[travel time](https://traveltime.com/blog/what-is-an-isochrone#what-are-isochrone-maps)_
 
 Isochrone maps measure how far something can travel from the origin point within a specified limit (time), depending on the mode of travel (foot, car, train, etc).
