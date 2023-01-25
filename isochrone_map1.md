@@ -17,6 +17,7 @@ from shapely.geometry import LineString
 from shapely.geometry import Point
 from shapely.geometry import Polygon
 
+ox.config(log_console=True, use_cache=True)
 %matplotlib inline
 ```
 
@@ -32,15 +33,15 @@ print(python_version())
 
 ## 2. Configuring geo-parameters
 
-We need to set up the parameters for the network graph we want to create. We will need an address, or coordinates (Latitude & Longitude). If you provide a name or an address, Osmnx under the hood will geocode and return the network graph for the area. 
+We need to set up the parameters for the network graph we want to create. We will need an address, or coordinates (Latitude & Longitude). If you provide a name or an address, OSMnx under the hood will geocode and return the network graph for the area. 
 
-In this demonstration, we will create a network graph for the city of San Francisco, California. We first create a couple of variables to hold `location` and `transportation_mode`.
+In this demonstration, we will create a network graph for the city of Manila, Philippines. We first create a couple of variables to hold `location` and `transportation_mode`.
 
 
 ```python
 # configure the place, network type, trip times, and travel speed
 
-place = {"city": "San Francisco", "state": "California"}
+place = {"city": "Manila", "country": "Philippines"}
 network_type = "walk"
 trip_times = [5, 10, 15, 20]  # in minutes
 travel_speed = 4.5  # average walking speed in km/hour
@@ -56,7 +57,7 @@ G = ox.graph_from_place(place, network_type=network_type)
 
 Let’s get a point to analyze accessibility from (the center of the graph) and also project the graph to UTM.
 
-Now project the graph, a basic view of Berkeley.
+Then we project the graph - a basic view of Berkeley.
 
 
 ```python
@@ -108,7 +109,7 @@ fig, ax = ox.plot_graph(
 ```
 
 
-![png](https://i.imgur.com/pO6C739.png)
+![png](https://i.imgur.com/ZVhj2zr.png)
 
 
 
@@ -139,14 +140,14 @@ plt.show()
 ```
 
 
-![png](https://i.imgur.com/dS1aLkX.png)
+![png](https://i.imgur.com/WfL7yHv.png)
 
 
 ## 5. Problems with both of above methods
 
 There are downsides to both of the above methods. In the first, the dots are not only hard to read but our isochrone map looks disjointed. At minimum, it shows us the travel time information for each node, but a true isochrone conveys travel time information of an area. Isochrone maps should display a discernable border or boundary for each layer of travel time. 
 
-The second is a slight improvement, we are given an area (polygon) with discernible borders, but it doesn't account for any inaccessible streets or obstacles found in that particular area. (I know *every* city has them.)
+The second is a slight improvement, we are given an area (polygon) but it doesn't account for any inaccessible streets or obstacles found in that particular area. (I know *every* city has them.)
 
 So what we need is something in between...
 
@@ -154,7 +155,7 @@ Thankfully, the brilliant [Kuan Butts](http://kuanbutts.com/2017/12/16/osmnx-iso
 
 ## 6. A new method of generating isochrones
 
-For this part, I will you through the new method step by step. In this example, we will work only with the 20 minute readius which we will assign to variable `trip_time`
+For this part, I will you through the new method step by step. In this example, we will work only with the 20 minute readius which we will assgin to variable `buffer_val`
 
 The `buffer` function essentially thickens the node depending on the value (integer) we give it. The larger the value, the thicker our nodes become.
 
@@ -176,11 +177,11 @@ nodes_gdf.buffer(buffer_val).unary_union
 
 
 
-![svg](https://i.imgur.com/yErv5GS.png)
+![png](https://i.imgur.com/s7Awx1M.png)
 
 
 
-We can apply the same method to our edges. If we use the edges instead of the nodes, we will get a continuous line set that we can use to `buffer`. From this buffer we will create a single polygon representing accessibility at this given time threshold.
+We can apply the same method to our edges. If we use the edges instead of the nodes, we will get a continuous line set that we can use `buffer`. From this buffer we will create a single polygon representing accessibility at this given time threshold.
 
 
 ```python
@@ -202,7 +203,7 @@ edges_gdf.buffer(buffer_val).unary_union
 
 
 
-![svg](https://i.imgur.com/obAdugi.png)
+![png](https://i.imgur.com/WmPLNE5.png)
 
 
 
@@ -259,13 +260,12 @@ plt.show()
 ```
 
 
-![png](https://i.imgur.com/v0HT0QE.png)
+![png](https://i.imgur.com/GG3MWiG.png)
 
 
+There we have it; a starter isochrone map.
 
-    <Figure size 432x288 with 0 Axes>
-
-Fin.
+*fin.*
 
 
 [top](#top)
