@@ -1,4 +1,4 @@
-**[Home](https://yvesmango.github.io/) >> [Projects](https://yvesmango.github.io/projects.html) >> OSMnx Isochrone map**
+**[Home](https://yvesmango.github.io/) >> [Projects](https://yvesmango.github.io/projects) >> OSMnx Isochrone map**
 
 
 ## OSMnx Isochrone map
