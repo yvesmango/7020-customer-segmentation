@@ -7,11 +7,11 @@
 
 >Isochrone maps, also known as travel time maps, are maps that show **all** reachable locations within a specified limit by a specified mode of transport. They are most used to depict travel times, such as drawing a 30-minute travel time perimeter around a start location. _[travel time](https://traveltime.com/blog/what-is-an-isochrone#what-are-isochrone-maps)_
 
-Isochrone maps measure how far something can travel from the origin point within a specified limit (time), depending on the mode of travel (foot, car, train, etc).
+Isochrone maps measure how far someone can travel from the origin point within a specified limit (time), depending on the mode of travel (foot, car, train, etc).
 
-### Goals & motivations:
+### Goals & motivations
 
-This isochrone project was inspired by a [reddit post from /r/dataisbeautiful](https://bit.ly/3J3MTLq). The use cases could range anywhere from travel planning to analyzing  accessibility of city street networks among different cities and/or countries. Not to mention I find the isochrones visually pleasing. The steps taken to make their isochrone map was much simpler than I originally thought, at least simpler than our methods here. The OP used QGIS to create the map, specifically a third-party plugin to caclulate and render the polygons on the map.
+This isochrone project was inspired by a [reddit post from /r/dataisbeautiful](https://bit.ly/3J3MTLq). The use cases could range anywhere from travel planning to analyzing  accessibility of city street networks among different cities and/or countries. Not to mention I find the isochrones visually pleasing. The steps taken to make their isochrone map was much simpler than I originally thought, at least simpler than our methods here. The OP used QGIS to create the map, specifically a third-party plugin to calculate and render the polygons on the map.
 
 Of course, I prefer to do things differently... and take the more complicated route. So I went and tried to recreate the project using Python via the street network analysis package, `OSMnx`.
 
