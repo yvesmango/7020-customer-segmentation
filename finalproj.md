@@ -1,3 +1,8 @@
+---
+layout: default
+---
+**[Home](https://yvesmango.github.io/) >> [Projects](https://yvesmango.github.io/projects) >> [R Kaggle Survey 2022](https://yvesmango.github.io/r-kaggle-survey-2022/) >> Jupyter Notebook**
+
 This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you
 execute code within the notebook, the results appear beneath the code.
 
