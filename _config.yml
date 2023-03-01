@@ -1,8 +1,8 @@
 remote_theme: vaibhavvikas/jekyll-theme-minimalistic
 color-scheme: light
 
-title: isochrone-map-osmnx
-description: A geospatial project that utilizes OSMnx to create and visualize isochrone maps.
+title: r-kaggle-survey-2022
+description: An analysis of kaggle 2022 survey data
 
 plugins:
   - jekyll-sitemap
@@ -13,4 +13,4 @@ navigation:
   - name: Read me
     link: ./index.html
   - name: R markdown
-    link: ./rkagglesurvey
+    link: ./rkagglesurvey.Rmd
