@@ -13,4 +13,4 @@ navigation:
   - name: Read me
     link: ./index.html
   - name: R markdown
-    link: ./finalproj
+    link: ./finalproj.nb.html
