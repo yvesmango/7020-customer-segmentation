@@ -1,4 +1,4 @@
-**[Home](https://yvesmango.github.io/) >> [Projects](https://yvesmango.github.io/projects) >> OSMnx Isochrone map**
+**[Home](https://yvesmango.github.io/) >> [Projects](https://yvesmango.github.io/projects) >> R Kaggle Survey 2022**
 
 
 ## Kaggle survey 2022, state of data science community
