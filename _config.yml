@@ -12,5 +12,5 @@ plugins:
 navigation:
   - name: Read me
     link: ./index.html
-  - name: Jupyter Notebook 
-    link: ./isochrone_map1
+  - name: R markdown
+    link: ./rkagglesurvey
