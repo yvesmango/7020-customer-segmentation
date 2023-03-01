@@ -1,7 +1,9 @@
 ---
 layout: default
-title: "Kaggle survey 2022, state of data science"
-output: md_document
+title: Kaggle survey 2022, state of data science
+output: 
+  md_document:
+    variant: markdown_github
 ---
 
 **[Home](https://yvesmango.github.io/) >> [Projects](https://yvesmango.github.io/projects) >> [OSMnx isochrone](https://yvesmango.github.io/isochrone_map1/) >> Jupyter Notebook**

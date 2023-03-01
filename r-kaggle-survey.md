@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-**[Home](https://yvesmango.github.io/) >> [Projects](https://yvesmango.github.io/projects) >> [R Kaggle Survey 2022](https://yvesmango.github.io/r-kaggle-survey-2022/) >> Jupyter Notebook**
+**[Home](https://yvesmango.github.io/) >> [Projects](https://yvesmango.github.io/projects) >> [R Kaggle Survey 2022](https://yvesmango.github.io/isochrone_map1/) >> Jupyter Notebook**
 
 # Drawing an isochrone map with OSMnx
 
@@ -20,7 +20,6 @@ from shapely.geometry import Polygon
 ox.config(log_console=True, use_cache=True)
 %matplotlib inline
 ```
-
 
 ```python
 from platform import python_version
