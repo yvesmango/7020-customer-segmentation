@@ -1,19 +1,55 @@
-**[Home](https://yvesmango.github.io/) >> [Projects](https://yvesmango.github.io/projects) >> R Kaggle Survey 2022**
+**[Home](https://yvesmango.github.io/) >> [Projects](https://yvesmango.github.io/projects) >>  Witcher Network Analysis**
 
+# [Project] Witcher Characters, A Network Analysis
 
-## Kaggle survey 2022, state of data science community
+Goal: Extract relational insights from the data based on characters identified from the text through Named Entitiy Recognition. 
 
-### What is an isochrone map?
+## Table of Contents
 
-This is an analysis I did for one of my core courses in my master's program.
+- [Introduction](#introduction)
+- [Project Description](#project-description)
+- [Data Description](#data-description)
+- [Methods](#methods)
+- [Results](#results)
+- [Conclusion](#conclusion)
+- [Contributing](#contributing)
+- [License](#license)
 
-### Goals & motivations
+## Introduction
 
+Brief introduction to the project.
 
+## Project Description
 
+A more detailed description of the project, including goals, objectives, and research questions.
+This is an introuctory project NLP that uses Named Entity Recognition (NER) to identify and classify named entities into predefined categories (e.g. characters listed in the book --> characters variable). The goal of NER is to extract structured information from unstructured text data (Witcher books). In NLP, NER can help identify entities that are relevant to the question(s) being asked –
 
+ * Which characters interact the most according to the network graph?
+ * How are the characters naturally clustered around one another?
 
+– which I will then turn to Network Analysis to analyze the different interactions and relations among entities identified through NER.
 
-### Extension, good next steps
+## Data Description
 
-* Add some statistical testing into the analysis.
+Details about the data used in the project, including source(s), size, format, and any preprocessing or cleaning that was performed.
+
+## Methods
+
+Description of the methods used in the analysis, including statistical techniques, data visualization tools, and software used.
+
+## Results
+
+Summary of the findings and results of the analysis, including any visualizations or graphs that were created.
+
+## Conclusion
+
+Concluding thoughts on the project, including insights gained and potential future directions for research.
+
+## Contributing
+
+Instructions for how to contribute to the project or report any issues.
+
+## License
+
+Information on the license under which the project is shared.
+
