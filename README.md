@@ -2,7 +2,7 @@
 
 # [Project] Witcher Characters, A Network Analysis
 
-Goal: Extract relational insights from the data based on characters identified from the text through Named Entitiy Recognition. 
+**Goal**: Extract relational insights from the data based on characters identified from book text through Named Entitiy Recognition. 
 
 ## Table of Contents
 
@@ -17,7 +17,7 @@ Goal: Extract relational insights from the data based on characters identified f
 
 ## Introduction
 
-Brief introduction to the project.
+The Witcher is a medieval fantasy universe created by Polish author Andrzej Sapkowski. The Witcher series revovles around the eponymous "witcher", a monster-hunter, Geralt of Rivia.
 
 ## Project Description
 
