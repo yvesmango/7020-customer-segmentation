@@ -21,7 +21,6 @@ Brief introduction to the project.
 
 ## Project Description
 
-A more detailed description of the project, including goals, objectives, and research questions.
 This is an introuctory project NLP that uses Named Entity Recognition (NER) to identify and classify named entities into predefined categories (e.g. characters listed in the book --> characters variable). The goal of NER is to extract structured information from unstructured text data (Witcher books). In NLP, NER can help identify entities that are relevant to the question(s) being asked –
 
  * Which characters interact the most according to the network graph?
