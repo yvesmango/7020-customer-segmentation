@@ -1,5 +1,9 @@
-**Goal**: I will attempt to perform customer segmentation based on retail data. The goal of this project is to perform  unsupervised learning and clustering to summarize customer segment and population. More attribute information and the data context can be read here: [Kaggle source](https://www.kaggle.com/datasets/imakash3011/customer-personality-analysis)
+---
+layout: default
+---
+**[Home](https://yvesmango.github.io/) >> [Projects](https://yvesmango.github.io/projects) >> [7020-Customer-Segmentation](https://yvesmango.github.io/7020-customer-segmentation/) >> R Notebook**
 
+**Goal**: I will attempt to perform customer segmentation based on retail data. The goal of this project is to perform  unsupervised learning and clustering to summarize customer segment and population. More attribute information and the data context can be read here: [Kaggle source](https://www.kaggle.com/datasets/imakash3011/customer-personality-analysis)
 
 ```R
 library(tidyverse)
