@@ -1,4 +1,4 @@
-**[Home](https://yvesmango.github.io/) >> [Projects](https://yvesmango.github.io/projects) >>  Witcher Network Analysis**
+**[Home](https://yvesmango.github.io/) >> [Projects](https://yvesmango.github.io/projects) >>  7020 Customer Segmentation Analysis**
 
 # [Project] Witcher Characters, A Network Analysis
 
@@ -17,7 +17,7 @@
 
 ## Introduction
 
-The Witcher is a medieval fantasy universe created by Polish author Andrzej Sapkowski. The Witcher series revovles around the eponymous "witcher", a monster-hunter, Geralt of Rivia.
+This notebook was submitted as my final project for my statistics and probablistic learning class, using machine learning method to segment or group the data on which to conduct statistical analysis.
 
 ## Project Description
 
