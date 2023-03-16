@@ -1,8 +1,8 @@
 remote_theme: vaibhavvikas/jekyll-theme-minimalistic
 color-scheme: light
 
-title: r-kaggle-survey-2022
-description: An analysis of kaggle 2022 survey data
+title: 7020-customer-segmentation
+description: An unspervised learning, customer segmentation project.
 
 plugins:
   - jekyll-sitemap
@@ -13,4 +13,4 @@ navigation:
   - name: Read me
     link: ./index.html
   - name: R markdown
-    link: ./kagglesurvey2022
+    link: ./custseg-7022
