@@ -1,6 +1,6 @@
 **[Home](https://yvesmango.github.io/) >> [Projects](https://yvesmango.github.io/projects) >>  7020 Customer Segmentation Analysis**
 
-# [Project] Witcher Characters, A Network Analysis
+# [Project] Customer Segmentation, Course Project
 
 **Goal**: Extract relational insights from the data based on characters identified from book text through Named Entitiy Recognition. 
 
@@ -17,7 +17,7 @@
 
 ## Introduction
 
-This notebook was submitted as my final project for my statistics and probablistic learning class, using machine learning method to segment or group the data on which to conduct statistical analysis.
+This notebook was submitted as my final project for my statistics and probablistic learning class, using machine learning method to segment or group the data on which to conduct series of statistical analyses.
 
 ## Project Description
 
