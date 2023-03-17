@@ -16,4 +16,4 @@ navigation:
     link: ./custseg-7020
   - name: Data Viz Report
     link: https://drive.google.com/file/d/11wJvhyFXu1C0P_FbTcMowWgHiuZdqjPI/view?usp=sharing
-  - name: <%= link_to “Davsez”, https://drive.google.com/drive/folders/1Jmp6qB9cYxIZoBK5lmZi2NhNvJ462A9y, :target => ‘_blank’ %>  
+  - name: <%= link_to “Davsez”, https://drive.google.com/file/d/11wJvhyFXu1C0P_FbTcMowWgHiuZdqjPI/view?usp=sharing, :target => ‘_blank’ %>  
