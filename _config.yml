@@ -16,8 +16,3 @@ navigation:
     link: ./custseg-7020
   - name: Data Viz Report
     link: https://drive.google.com/file/d/11wJvhyFXu1C0P_FbTcMowWgHiuZdqjPI/view?usp=sharing
-  - <a href="https://drive.google.com/file/d/11wJvhyFXu1C0P_FbTcMowWgHiuZdqjPI/view?usp=sharing" target="_blank">data viz report</a>
-  - name: [Visualization Report](https://drive.google.com/file/d/11wJvhyFXu1C0P_FbTcMowWgHiuZdqjPI/view?usp=sharing){:target="_blank"}
-    link: https://drive.google.com/file/d/11wJvhyFXu1C0P_FbTcMowWgHiuZdqjPI/view?usp=sharing
-  - name: <a href="https://drive.google.com/file/d/11wJvhyFXu1C0P_FbTcMowWgHiuZdqjPI/view?usp=sharing" target="_blank">data viz report</a>
-    link: 
