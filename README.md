@@ -17,11 +17,10 @@
 
 ## Introduction
 
-This notebook was submitted as my final project for my statistics and probablistic learning class, using machine learning method to segment or group the data on which to conduct series of statistical analyses.
+This notebook was submitted as my final project for my statistics and probablistic learning class, using machine learning method to segment the customer data on which to conduct series of statistical analyses.
 
 ## Project Description
 
-This is an introuctory NLP project that uses Named Entity Recognition (NER) to identify and classify named entities into predefined categories (e.g. characters listed in the book --> characters list). The goal of NER is to extract structured information from unstructured text data (Witcher books). In NLP, NER can help identify entities that are relevant to the question(s) being asked –
 
  * Which characters interact the most according to the network graph?
  * How are the characters naturally clustered around one another?
@@ -38,17 +37,18 @@ Description of the methods used in the analysis, including statistical technique
 
 ## Results
 
-Summary of the findings and results of the analysis, including any visualizations or graphs that were created.
+The results of the ANOVA test show that
 
 ## Conclusion
 
 Concluding thoughts on the project, including insights gained and potential future directions for research.
 
+As this was 
+
 ## Contributing
 
-Instructions for how to contribute to the project or report any issues.
+Instructions for how to contribute to the project or report any issues. 
 
 ## License
 
-Information on the license under which the project is shared.
-
+MIT License
