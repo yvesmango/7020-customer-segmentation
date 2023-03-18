@@ -31,9 +31,7 @@ This notebook was submitted as my final project for my statistics and probablist
 
 Details about the data used in the project, including source(s), size, format, and any preprocessing or cleaning that was performed.
 
-## Methods
-
-Description of the methods used in the analysis, including statistical techniques, data visualization tools, and software used.
+Data used is customer data collected during marketing compaign period. More attribute details can be [read here.](https://www.kaggle.com/datasets/imakash3011/customer-personality-analysis)
 
 ## Results
 
@@ -43,11 +41,11 @@ The results of the ANOVA test show that
 
 Concluding thoughts on the project, including insights gained and potential future directions for research.
 
-As this was 
+As this was my first, 
 
-## Contributing
+## Next Steps
 
-Instructions for how to contribute to the project or report any issues. 
+One direction to try would be to use more than 2 clusters for segmentation, then try to identigy subclasses. 
 
 ## License
 

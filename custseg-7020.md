@@ -1077,7 +1077,7 @@ Key concept I learned from this whole process:
 
 ## 5. Visualizing Insights, as gained from our Unsupervised Learning Model (K-means)
 
-In this final section, I will visualize the groupings using features as characteristics to highlight the clear distinctions between the clusters. The end product is a separate report visualizating the findings of the analysis. (Find it in the navigation sidebar). 
+In this final section, I will visualize the groupings using features as characteristics to highlight the clear distinctions between the clusters. The end product is a separate report visualizing the findings of the analysis. (Find it in the navigation sidebar!) 
 
 
 ```R
