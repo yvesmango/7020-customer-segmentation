@@ -21,11 +21,8 @@ This notebook was submitted as my final project for my statistics and probablist
 
 ## Project Description
 
+Describe the project
 
- * Which characters interact the most according to the network graph?
- * How are the characters naturally clustered around one another?
-
-– which I will then turn to Network Analysis to analyze the different interactions and relations among entities identified through NER.
 
 ## Data Description
 
