@@ -53,7 +53,7 @@ dim(my_data)
 .list-inline>li {display: inline-block}
 .list-inline>li:not(:last-child)::after {content: "\00b7"; padding: 0 .5ex}
 </style>
-<ol class=list-inline><li>2240</li><li>29</li></ol>
+<ol class="list-inline"><li>2240</li><li>29</li></ol>
 
 
 
