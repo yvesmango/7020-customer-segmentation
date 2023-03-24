@@ -3,6 +3,19 @@ layout: default
 ---
 **[Home](https://yvesmango.github.io/) >> [Projects](https://yvesmango.github.io/projects) >> [7020-Customer-Segmentation](https://yvesmango.github.io/7020-customer-segmentation/) >> R Notebook**
 
+
+## Table of Contents
+
+- [Part 1: Loading and Cleaning](#1.-Loading,-Cleaning,-Displaying-Data)
+  - [Preprocessing](#section-a.-preprocessing)
+- [Data Description](#data-description)
+- [Methods](#methods)
+- [Results](#results)
+- [Conclusion](#conclusion)
+- [Contributing](#contributing)
+- [License](#license)
+
+
 **Goal**: I will attempt to perform customer segmentation based on retail data. The goal of this project is to perform  unsupervised learning and clustering to summarize customer segment and population. More attribute information and the data context can be read here: [Kaggle source](https://www.kaggle.com/datasets/imakash3011/customer-personality-analysis)
 
 ```R
