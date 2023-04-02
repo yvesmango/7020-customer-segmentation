@@ -9,8 +9,8 @@ layout: default
 - [1: Loading and Cleaning](#1-loading-cleaning-displaying-data)
   - [Preprocessing](#section-a-preprocessing)
   - [Feature Engineering](#section-b-feature-engineering)
-  [2: Exploratory Data Analysis](#2-exploratory-data-analysis)
-- [Methods](#methods)
+- [2: Exploratory Data Analysis](#2-exploratory-data-analysis)
+  - [Summary Statistics](#part-1-summary-statistics)
 - [Results](#results)
 - [Conclusion](#conclusion)
 - [Contributing](#contributing)
@@ -154,7 +154,7 @@ sort(colSums(is.na(my_data)), decreasing = TRUE)
 
 "Income" column has 24 null values. I need to decide what to do with those null values. For starters, do I keep or remove them? If keep, how do I want to fill the nulls, use average, etc?
 
-Since only 24 rows are affected by null values in our dataset of 2240 observations. I'm simply going to drop these from our dataframe.
+Since only 24 rows are affected by null values in our dataset of 2240 observations. I'm simply going to drop these from our dataframe. 
 
 
 ```R
@@ -516,7 +516,7 @@ my_data %>%
 ```
 
 
-![png](output_32_0.png)
+![Imgur](https://i.imgur.com/NSXjkPG.png)
 
 
 #### Part 3. Correlations plots and boxplots
