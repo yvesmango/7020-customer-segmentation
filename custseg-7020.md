@@ -516,7 +516,7 @@ my_data %>%
 ```
 
 
-![Imgur](https://i.imgur.com/NSXjkPG.png)
+![Imgur](https://i.imgur.com/nQ82lmr.png)
 
 
 #### Part 3. Correlations plots and boxplots
