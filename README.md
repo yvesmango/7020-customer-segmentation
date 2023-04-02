@@ -18,7 +18,9 @@ This notebook was submitted as my final project for my statistics and probablist
 
 ## Project Description
 
+The objective of this project is to use k-means clustering to segment customers based on their purchase behavior since a typical unsupervised learning project requires the dataset include no target variable (y_pred). The dataset consists of transactional data containing customer ID, purchase amount, and purchase frequency. The project will involve data preprocessing, exploratory data analysis, and the application of k-means clustering to identify distinct customer segments based on their purchasing behavior. The project aims to provide insights into customer behavior, which can be used for targeted marketing and customer retention strategies. The project will be implemented using the R programming language and its associated data science libraries, such as tidyverse, dplyr, and ggplot2.
 
+Find additional information about [k-means clustering algorithm here.](https://towardsdatascience.com/understanding-k-means-clustering-in-machine-learning-6a6e67336aa1)
 
 ## Data Description
 
