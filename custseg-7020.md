@@ -6,9 +6,10 @@ layout: default
 
 ## Table of Contents
 
-- [Part 1: Loading and Cleaning](#1-loading-cleaning-displaying-data)
+- [1: Loading and Cleaning](#1-loading-cleaning-displaying-data)
   - [Preprocessing](#section-a-preprocessing)
   - [Feature Engineering](#section-b-feature-engineering)
+  [2: Exploratory Data Analysis](#2-exploratory-data-analysis)
 - [Methods](#methods)
 - [Results](#results)
 - [Conclusion](#conclusion)
