@@ -26,9 +26,8 @@ Data used is customer data collected during marketing compaign period. More attr
 
 ## Conclusion
 
-Concluding thoughts on the project, including insights gained and potential future directions for research.
 
-Through clustering, I was able to distinguish which you will see among different characteristics like spending habits and parent status.
+Through clustering, I was able to distinguish the patterns by which the data is grouped. In the analysis, you will see that among the different variables, spending habits and parent status is one of the top identifiers. Overall, I think this was a pretty good project and run-through as I incorporated statistical analyses to suport some of the inferences made – on top of being my first attempt at clustering analysis.
 
 
 Potential future directions to try would be to use more than 2 clusters for segmentation, then try to identigy subclasses. It would be interesting to see what the algorithm comes up with as additional classifiers.
