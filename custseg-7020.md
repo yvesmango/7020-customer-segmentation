@@ -600,7 +600,7 @@ invisible(lapply(1:ncol(num_data), function(i) boxplot(num_data[, i], main=colna
 ```
 
 
-![png](output_38_0.png)
+![Imgur](https://i.imgur.com/O3bHSm4.png)
 
 
 
