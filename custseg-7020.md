@@ -600,19 +600,18 @@ invisible(lapply(1:ncol(num_data), function(i) boxplot(num_data[, i], main=colna
 ```
 
 
-![Imgur](https://i.imgur.com/O3bHSm4.png)
+![Imgur](https://i.imgur.com/YBdkeDS.png)
+
+
+![Imgur](https://i.imgur.com/c3SIIgg.png)
 
 
 
-![png](output_38_1.png)
+![Imgur](https://i.imgur.com/5Y34s0M.png)
 
 
 
-![png](output_38_2.png)
-
-
-
-![png](output_38_3.png)
+![Imgur](https://i.imgur.com/AhDfd1s.png)
 
 
 
