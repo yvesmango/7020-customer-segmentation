@@ -889,7 +889,7 @@ kclust$cluster
 clusplot(scaled_encoded_small, kclust$cluster, color = TRUE, shade = TRUE, labels = 2, lines = 0)
 
 ```
-
+![Imgur](https://i.imgur.com/KgltUss.png)
 
 ```R
 #save clusterplot
