@@ -516,7 +516,7 @@ my_data %>%
 ```
 
 
-![Imgur](https://i.imgur.com/nQ82lmr.png)
+![Imgur](https://i.imgur.com/NSXjkPG.png)
 
 
 #### Part 3. Correlations plots and boxplots
@@ -572,8 +572,7 @@ ggplot(data = melted_cormat, aes(Var2, Var1, fill = value))+
 
 
 
-![Imgur](https://i.imgur.com/SpIupxY.png)
-
+![Imgur](https://i.imgur.com/nQ82lmr.png)
 
 **This is simply too many variables to account for**
 
