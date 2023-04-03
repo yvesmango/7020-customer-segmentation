@@ -731,8 +731,7 @@ plot(pca_result, type = "l")
 ```
 
 
-![png](output_46_0.png)
-
+![Imgur](https://i.imgur.com/XUo8jxe.png)
 
 From the results of our PCA, I can identify that the first two principal components explain 36.62% of the variance, which means they both capture a strong underlying pattern in the data (total variability). Additionally, the scree plot confirms the sufficient number of PCs to use via the elbow method.
 
