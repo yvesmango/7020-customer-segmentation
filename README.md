@@ -4,14 +4,6 @@
 
 **Goal**: Perform customer segmentation on retail data. The goal of this project is to perform  unsupervised learning using k-means clustering to segment the data. More attribute information and the data context can be read here: [Kaggle source](https://www.kaggle.com/datasets/imakash3011/customer-personality-analysis) 
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Project Description](#project-description)
-- [Data Description](#data-description)
-- [Conclusion](#conclusion)
-- [License](#license)
-
 ## Introduction
 
 This notebook was submitted as my final project for my statistics and probablistic learning class, using machine learning method to segment the customer data on which to conduct series of statistical analyses.
