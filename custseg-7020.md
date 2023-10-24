@@ -17,7 +17,7 @@ layout: default
 - [License](#license)
 
 
-**Goal**: I will attempt to perform customer segmentation based on retail data. The goal of this project is to perform  unsupervised learning and clustering to summarize customer segment and population. More attribute information and the data context can be read here: [Kaggle source](https://www.kaggle.com/datasets/imakash3011/customer-personality-analysis)
+**Goal**: I will perform customer segmentation based on retail data. The goal of this project is to perform  unsupervised learning and clustering to summarize customer segment and population. More attribute information and the data context can be read here: [Kaggle source](https://www.kaggle.com/datasets/imakash3011/customer-personality-analysis)
 
 ```R
 library(tidyverse)
