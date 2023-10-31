@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-**[Home](https://yvesmango.github.io/) >> [Projects](https://yvesmango.github.io/projects) >> [7020-Customer-Segmentation](https://yvesmango.github.io/7020-customer-segmentation/) >> R Notebook**
+**[Home](https://yvesmango.github.io/) >> [Projects](https://yvesmango.github.io/projects) >> [7020 Customer Segmentation](https://yvesmango.github.io/7020-customer-segmentation/) >> R Notebook**
 
 
 ## Table of Contents
